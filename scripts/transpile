@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+babel index.js --out-file index.es5.js;

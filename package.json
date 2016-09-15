@@ -2,8 +2,9 @@
   "name": "birl",
   "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "index.es5.js",
   "scripts": {
+    "transpile": "scripts/transpile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,10 +17,19 @@
     "type": "git",
     "url": "git://github.com/darlanmendonca/birl.git"
   },
+  "engines": {
+    "node": ">=0.12.0",
+    "npm": ">=1.2.10"
+  },
   "license": "MIT",
   "homepage": "https://github.com/darlanmendonca/birl",
   "bugs": "https://github.com/darlanmendonca/birl/issues",
   "dependencies": {
     "ipod": "^0.2.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.7.0",
+    "babel-preset-es2015": "^6.6.0"
   }
 }
