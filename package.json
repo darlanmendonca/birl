@@ -1,0 +1,25 @@
+{
+  "name": "birl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "birl",
+    "bambam",
+    "bodybuild"
+  ],
+  "author": "Darlan Mendonça <darlanmendonca@gmail.com> (https://github.com/darlanmendonca)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/darlanmendonca/birl.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/darlanmendonca/birl",
+  "bugs": "https://github.com/darlanmendonca/birl/issues",
+  "dependencies": {
+    "ipod": "^0.2.4"
+  }
+}
