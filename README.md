@@ -1,31 +1,28 @@
 # Birl
 
-Aqui nóis constrói fibra, não é água com músculo!!
+Instale este módulo e toque "birl" no console.
 
-### Instalação
+Boraaa, Hora do Show Porra!
 
-
-##### global
 ```sh
 npm install -g birl
 ```
 
-##### local
-```sh
-npm install birl --save-dev
-```
+E para derrubas as árvores do Ibirapuera, digite no terminal:
 
-### Uso
-Boraaa, Hora do Show Porra!
 
-##### global
 ```sh
 birl
 ```
 
-##### local
+Agora se você quer derrubar as árvores do Ibirapuera, instale localmente em um projeto
+
+```sh
+npm install birl --save-dev
+```
+
 ```js
-let birl = require('birl');
+const birl = require('birl');
 // Não vai dá não
 // Que não vai dá rapaiz, sai de casa comi pra caralho!!!
 birl();
