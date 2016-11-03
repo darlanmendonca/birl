@@ -2,7 +2,7 @@
   "name": "birl",
   "version": "0.0.4",
   "description": "Aqui é bodybuild porra!!!",
-  "main": "index.js",
+  "main": "./app/index.js",
   "bin": {
     "birl": "./bin/birl.js"
   },

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-const packageJSON = require(`${process.env.PWD}/package.json`);
-const birl = require(`${process.env.PWD}/${packageJSON.main}`);
+const packageJSON = require('../package.json');
+const path = require('path');
+const birl = require(path.resolve(__dirname, '..', packageJSON.main));
 
 birl();
