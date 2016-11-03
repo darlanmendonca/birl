@@ -1,11 +1,9 @@
-let IPod = require('ipod');
+let player = require('play-sound')();
 let audio = `${__dirname}/birl.mp3`;
-let ipod = new IPod(audio);
 
 module.exports = birl;
 
 function birl() {
-  ipod.play();
-  ipod.on('playing', () => ipod.stop());
+  player.play(audio);
 }
 

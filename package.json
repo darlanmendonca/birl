@@ -26,7 +26,7 @@
   "homepage": "https://github.com/darlanmendonca/birl",
   "bugs": "https://github.com/darlanmendonca/birl/issues",
   "dependencies": {
-    "ipod": "^0.2.4"
+    "play-sound": "^1.1.1"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
