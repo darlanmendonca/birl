@@ -1,5 +1,3 @@
-'use strict';
-
 let IPod = require('ipod');
 let audio = `${__dirname}/birl.mp3`;
 let ipod = new IPod(audio);

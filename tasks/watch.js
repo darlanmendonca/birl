@@ -1,10 +1,8 @@
-'use strict';
-
-let gulp = require('gulp');
-let config = require('./config.js');
+import gulp from 'gulp';
+import {lint} from './config.js';
 
 gulp.task('watch', watchTask);
 
 function watchTask() {
-  gulp.watch(config.lint, ['lint']);
+  gulp.watch(lint, ['lint']);
 }
