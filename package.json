@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.es5.js",
   "scripts": {
-    "transpile": "scripts/transpile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -18,8 +17,7 @@
     "url": "git://github.com/darlanmendonca/birl.git"
   },
   "engines": {
-    "node": ">=0.12.0",
-    "npm": ">=1.2.10"
+    "node": ">=0.4.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/darlanmendonca/birl",
