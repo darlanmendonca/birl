@@ -24,7 +24,7 @@ npm install birl --save-dev
 ```js
 const birl = require('birl');
 // Não vai dá não
-// Que não vai dá rapaiz, sai de casa comi pra caralho!!!
+// Que não vai dá rapaiz, saí de casa comi pra caralho!!!
 birl();
 ```
 
