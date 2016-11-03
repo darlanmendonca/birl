@@ -4,11 +4,13 @@ let optional = 1;
 let required = 2;
 
 module.exports = {
+  parserOptions: {
+    sourceType: 'module',
+  },
   env: {
     node: true,
     es6: true,
     mocha: true,
-    protractor: true,
   },
   globals: {
     expect: true,

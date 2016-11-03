@@ -2,7 +2,10 @@
   "name": "birl",
   "version": "0.0.2",
   "description": "",
-  "main": "index.es5.js",
+  "main": "index.js",
+  "bin": {
+    "birl": "./bin/birl.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
