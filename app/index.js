@@ -1,5 +1,7 @@
-let player = require('play-sound')();
-let audio = `${__dirname}/birl.mp3`;
+'use strict';
+
+const player = require('play-sound')();
+const audio = `${__dirname}/birl.mp3`;
 
 module.exports = birl;
 
